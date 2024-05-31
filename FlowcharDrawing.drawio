@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T13:20:27.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="t-1saPBwh9ApJRgisqZ_" version="24.4.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1379" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gN7tssx_RgXMsxkDH8WU-1" target="gN7tssx_RgXMsxkDH8WU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-4" value="MQTT Broker" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-8" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="400" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-6" value="" style="group" vertex="1" connectable="0" parent="gN7tssx_RgXMsxkDH8WU-8">
+          <mxGeometry x="10" y="50" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gN7tssx_RgXMsxkDH8WU-6" target="gN7tssx_RgXMsxkDH8WU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-1" value="ESP 8266&lt;div&gt;+&lt;br&gt;&lt;div&gt;MAX485&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="gN7tssx_RgXMsxkDH8WU-6">
+          <mxGeometry x="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-3" value="Sensor&lt;br&gt;XY-MD02" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="gN7tssx_RgXMsxkDH8WU-6">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-7" value="" style="swimlane;startSize=0;" vertex="1" parent="gN7tssx_RgXMsxkDH8WU-8">
+          <mxGeometry width="300" height="140" as="geometry">
+            <mxRectangle x="120" y="250" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-10" value="Hardware-based&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gN7tssx_RgXMsxkDH8WU-7">
+          <mxGeometry x="15" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-12" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gN7tssx_RgXMsxkDH8WU-4" target="gN7tssx_RgXMsxkDH8WU-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="460" as="sourcePoint" />
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-15" value="Node-Red&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Dashboard&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gN7tssx_RgXMsxkDH8WU-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gN7tssx_RgXMsxkDH8WU-4" target="gN7tssx_RgXMsxkDH8WU-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536" y="490" as="sourcePoint" />
+            <mxPoint x="610" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
